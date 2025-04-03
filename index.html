@@ -16,11 +16,74 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="style.css">
+        
     </head>
 
     <body>
         
-        
+        <div class="container mt-5">
+            <h3> Default Container </h3>
+            <h4> Ths containier is always on the center. Notice the equal margin in both sides?</h4>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ullam quam, cum saepe id quaerat iusto? Neque numquam alias sequi impedit, temporibus iure nemo quidem dolorum dicta blanditiis tempora dolor commodi asperiores minus, quia iste ratione eveniet fugiat perferendis vel fuga, quae nobis maxime consequatur? Illo ad dolorem dolores eaque? </p>
+        </div>
+
+        <div class="container-fluid">
+            <h3> Default Container </h3>
+            <h4> Ths containier is always on the center. Notice the equal margin in both sides?</h4>
+            <p class="m-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ullam quam, cum saepe id quaerat iusto? Neque numquam alias sequi impedit, temporibus iure nemo quidem dolorum dicta blanditiis tempora dolor commodi asperiores minus, quia iste ratione eveniet fugiat perferendis vel fuga, quae nobis maxime consequatur? Illo ad dolorem dolores eaque? </p>
+        </div>
+
+        <div class="container-fluid shadow bg-light mt-5 my-5 p-5 rounded-5">
+            <h3> Default Container </h3>
+            <h4> Ths containier is always on the center. Notice the equal margin in both sides?</h4>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ullam quam, cum saepe id quaerat iusto? Neque numquam alias sequi impedit, temporibus iure nemo quidem dolorum dicta blanditiis tempora dolor commodi asperiores minus, quia iste ratione eveniet fugiat perferendis vel fuga, quae nobis maxime consequatur? Illo ad dolorem dolores eaque? </p>
+        </div>
+
+        <!-- SHortcut: div.col*4>div.custom-box -->
+        <div class="container">
+            <div class="row g-0">
+                <div class="col">
+                    <div class="custom-box"> Row 1 </div>
+                </div>
+                <div class="col">
+                    <div class="custom-box"> Row 2 </div>
+                </div>
+                <div class="col">
+                    <div class="custom-box"> Row 3 </div>
+                </div>
+                <div class="col">
+                    <div class="custom-box"> Row 4 </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid ">
+            <h3> col-sm-6</h3>
+        <div class="row g-0">
+            <div class="col col-lg-4 col-md-12 col-sm-12 "> 
+                <div class="custom-box"> Box 1 </div>
+            </div>
+            <div class="col col-lg-4 col-md-12 col-sm-3 "> 
+                <div class="custom-box"> Box 2 </div> 
+            </div>
+            <div class="col col-lg-4 col-md-12 col-sm-9 ">
+                <div class="custom-box"> Box 3 </div>
+
+            <!-- Yung column sa small screen ay sasakop ng 12 -->
+            <!-- WE HAVE 12 COLUMNS IN DEFAULT-->
+            <!-- lg -> extra large; md -> medium; sm -> small -->
+            </div>
+        </div>
+
+
+        <div class="container my-4 d-flex justify-content-center">
+            <a href="color.html" class="btn btn-danger"> Go to Colors </a>
+        </div>
+
+
+        </div>
+
 
 
 
